@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none; border: none;
+    text-decoration: none;
+    font-family: "Inter", sans-serif;
+    transition: .2s linear;
+
+}
+.container{
+    padding: 80px 52px 80px 52px;
+    gap: 48px;
+}
+
+
+.container .heading1{
+    text-align: center;
+    line-height: 26px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #282828;
+    
+}
+.container .heading2{
+    text-align: center;
+    line-height: 62px;
+    font-size: 54px;
+    font-weight: 600;
+    letter-spacing: -1px;
+    color: #282828;
+   
+
+}
+.container .heading-text{
+    text-align: center;
+    line-height: 35px;
+    font-size: 20px;
+    font-weight: 400;
+    color: #5F6980;
+    height: 70px;
+
+
+
+}
+.container .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(310px, 1fr));
+    gap: 16px;
+}
+.container .box-container .box{
+   background-color: #FFFFFF;
+   gap: 16px;
+   border: 1px;
+   padding: 0px 0px 16px 0px;
+   border-color: #EAECF0;
+   
+}
+.container .box-container .box .text-box{
+    margin: 16px 16px 24px 16px;
+
+}
+h3{
+    color: 282828;
+    line-height: 30px;
+    font-weight: 600;
+    font-size: 18px;
+    
+}
+.container .box-container .box .text-box .proffession{
+    color: #3E3E59;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    margin-top: 4px;
+}
+.container .box-container .box .text-box .description{
+    color: #5F6980;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    margin-top: 8px;
+}
+.Social-icons{
+    margin: 0px 16px 16px 16px;
+    display: flex;
+    gap:16px;
+
+}
+a{
+    text-decoration: none;
+    list-style: none;
+    color: rgba(83, 83, 83, 1);
+  
+}
+.footer{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(318px, 1fr));
+    background: rgba(83, 83, 83, 0.33);
+    ;
+
+    
+}
+.footer-1{
+    
+    align-self: stretch;
+}
+button{
+    padding: 14px 16px 14px 16px;
+    gap: 10px;
+    width: 80px;
+    height: 45px;
+    background-color:rgba(5, 74, 104, 1);
+    ;
+    color: #FFFFFF;
+    border-radius: 5px;
+}
